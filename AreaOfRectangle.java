@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AreaOfRectangle {
 
 	//declaire private scanner
-	private static Scanner sc ;
+	// private static Scanner sc ;
 
 // Main Method
 	public static void main(String[] args) {
@@ -13,11 +13,11 @@ public class AreaOfRectangle {
 		Scanner input = new Scanner(System.in);
 		// Enter width of a rectangle
 		System.out.println("\n Please Enter the Width of a Rectangle =  ");
-		width = sc.nextDouble();
+		width = input.nextDouble();
 
 		// Enter length of Rectangle
 		System.out.println("\n Please Enter the Length of a Rectangle = ");
-		length = sc.nextDouble();
+		length = input.nextDouble();
 
 		AreaofRectangle(width, length);
 	}
